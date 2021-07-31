@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4022" started-at="2021-07-31T11:40:56 IST" finished-at="2021-07-31T11:41:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4022" started-at="2021-07-31T11:40:56 IST" finished-at="2021-07-31T11:41:00 IST">
+      <class name="sms.SendSMS.ValidateSendSmsTest">
+        <test-method status="PASS" signature="getBearerToken()[pri:0, instance:sms.SendSMS.ValidateSendSmsTest@2d8f65a4]" name="getBearerToken" is-config="true" duration-ms="3420" started-at="2021-07-31T11:40:53 IST" finished-at="2021-07-31T11:40:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBearerToken -->
+        <test-method status="PASS" signature="sendSms()[pri:0, instance:sms.SendSMS.ValidateSendSmsTest@2d8f65a4]" name="sendSms" is-config="true" duration-ms="1608" started-at="2021-07-31T11:40:56 IST" finished-at="2021-07-31T11:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendSms -->
+        <test-method status="PASS" signature="validateSmsResponseMessage()[pri:0, instance:sms.SendSMS.ValidateSendSmsTest@2d8f65a4]" name="validateSmsResponseMessage" duration-ms="1037" started-at="2021-07-31T11:40:58 IST" finished-at="2021-07-31T11:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSmsResponseMessage -->
+        <test-method status="PASS" signature="validateSmsResponseStatusCode()[pri:0, instance:sms.SendSMS.ValidateSendSmsTest@2d8f65a4]" name="validateSmsResponseStatusCode" duration-ms="1319" started-at="2021-07-31T11:40:59 IST" finished-at="2021-07-31T11:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSmsResponseStatusCode -->
+      </class> <!-- sms.SendSMS.ValidateSendSmsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
